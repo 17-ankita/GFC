@@ -1,0 +1,188 @@
+/* GLOBAL STYLES */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background-color: #00d5ff;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin-bottom: 15px;
+}
+
+header p {
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.btn {
+  background-color: #0800ff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0500cc;
+}
+
+/* ABOUT SECTION */
+.about {
+  padding: 40px 20px;
+  background-color: #f0f8ff;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about h2 {
+  text-align: center;
+  color: #0011ff;
+  margin-bottom: 20px;
+}
+
+.about p {
+  text-align: justify;
+  line-height: 1.7;
+  color: #333;
+  font-size: 1em;
+}
+
+/* WHY CHOOSE US SECTION */
+.why-choose-us {
+  padding: 40px 20px;
+  background-color: peachpuff;
+}
+
+.why-choose-us h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.why-choose-us ul {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.why-choose-us li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* PROGRAMS SECTION */
+.programs {
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.programs h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.programs h3 {
+  color: #0011ff;
+  margin-top: 20px;
+}
+
+.programs p {
+  color: black;
+}
+
+.programs ul {
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+  padding-left: 20px;
+  color: black;
+}
+
+.programs li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* FORM SECTION */
+.form-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #0015ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #3200e6;
+}
+
+/* FOOTER */
+footer {
+  background-color: #00d5ff;
+  color: rgb(15, 1, 1);
+  text-align: center;
+  padding: 20px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  form {
+    width: 90%;
+  }
+
+  .programs ul,
+  .why-choose-us ul {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
