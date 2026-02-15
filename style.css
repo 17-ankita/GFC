@@ -1,4 +1,3 @@
-/* GLOBAL STYLES */
 * {
   box-sizing: border-box;
 }
@@ -11,7 +10,6 @@ body {
   color: #333;
 }
 
-/* HEADER */
 header {
   background-color: #00d5ff;
   color: white;
@@ -27,7 +25,6 @@ header p {
   margin-bottom: 10px;
 }
 
-/* BUTTON */
 .btn {
   background-color: #0800ff;
   padding: 10px 20px;
@@ -43,7 +40,6 @@ header p {
   background-color: #0500cc;
 }
 
-/* ABOUT SECTION */
 .about {
   padding: 40px 20px;
   background-color: #f0f8ff;
@@ -65,8 +61,6 @@ header p {
   color: #333;
   font-size: 1em;
 }
-
-/* WHY CHOOSE US SECTION */
 .why-choose-us {
   padding: 40px 20px;
   background-color: peachpuff;
@@ -123,7 +117,6 @@ header p {
   line-height: 1.5;
 }
 
-/* FORM SECTION */
 .form-section {
   padding: 40px 20px;
   text-align: center;
@@ -166,7 +159,6 @@ input[type="submit"]:hover {
   background-color: #3200e6;
 }
 
-/* FOOTER */
 footer {
   background-color: #00d5ff;
   color: rgb(15, 1, 1);
@@ -174,7 +166,6 @@ footer {
   padding: 20px;
 }
 
-/* MEDIA QUERIES */
 @media (max-width: 768px) {
   form {
     width: 90%;
@@ -186,3 +177,4 @@ footer {
     margin: 10px auto;
   }
 }
+
