@@ -8,4 +8,4 @@ A beginner-friendly website for **GFC Group of Institutions**, showcasing progra
 - Apply page with simple student form  
 - Responsive design for mobile & desktop
 # LIVE ACCESS
-LINK - https://17-ankita.github.io/GFC/
+LINK - https://gfc-eta.vercel.app/
